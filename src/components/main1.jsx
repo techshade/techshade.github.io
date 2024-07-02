@@ -25,7 +25,7 @@ import { Textarea } from "@/components/ui/textarea"
 
 export function Main1() {
   return (
-    (<div className="flex min-h-screen flex-col bg-background w-full">
+    (<div className="flex min-h-screen flex-col bg-background w-full align-middle justify-center">
       <header className="sticky top-0 z-40 w-full border-b bg-background">
         <div className="container flex h-16 items-center justify-between px-4 md:px-6">
           <Link href="#" className="flex items-center gap-2" prefetch={false}>
@@ -57,7 +57,7 @@ export function Main1() {
       </header>
       <main className="flex-1">
         <section
-          className="bg-gradient-to-r from-primary to-secondary py-20 text-primary-foreground align-middle justify-center">
+          className="bg-gradient-to-r from-primary to-secondary py-20 text-primary-foreground ">
           <div
             className="container flex flex-col items-center justify-center gap-6 px-4 md:px-6">
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">Welcome to Shade Tech</h1>
